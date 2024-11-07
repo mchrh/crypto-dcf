@@ -186,10 +186,10 @@ if __name__ == "__main__":
     model = CryptoValuation(f"statements/{token_name}_q.csv")
 
     valuation = model.dcf_valuation(
-        projection_years=3,
-        terminal_growth=0.05,
+        projection_years=5,
+        terminal_growth=0.2,
         fee_capture_rate=0.167,
-        risk_free_rate=0.1,
+        risk_free_rate=0.2,
         market_risk_premium=0.1,
         crypto_beta=1.25
     )
