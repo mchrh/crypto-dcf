@@ -542,7 +542,7 @@ if __name__ == "__main__":
         terminal_growth=(0.5, 0.75),
         fee_capture_rate=(0.05, 0.15),
         risk_free_rate=(0.0, 0.03),
-        market_risk_premium=(0.05, 0.15),
+        market_risk_premium=(0.10, 0.20),
         crypto_beta=(1.2, 1.8),
         market_share_ceiling=(0.10, 0.25)
     )
